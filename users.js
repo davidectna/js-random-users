@@ -23,7 +23,7 @@ function createCard(image,name,surname) {
     images.className = 'img-fluid';
 
     let completeName = document.createElement('h4');
-    name.innerText = name + '' + surname;
+    completeName.innerText = name + '' + surname;
 
     let  card = document.createElement('div');
     card.className = "col-4";
